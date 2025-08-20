@@ -25,11 +25,18 @@ Proyek ini adalah halaman web statis dan tidak memerlukan server web. Anda dapat
 
 -----
 
-### 🌐 Link Live Demo
+### 🌐 Link Live Demo 
 
-*(Catatan: Anda dapat mengganti tautan di bawah ini dengan URL demo langsung dari proyek Anda setelah di-hosting.)*
+(https://www.google.com/search?q=https://link-ke-live-demo-anda.com)](https://jagolinkedin-id.vercel.app/#faq)
 
-[Link Demo Langsung Anda](https://www.google.com/search?q=https://link-ke-live-demo-anda.com)
+### 🌐 Link Live Demo 
+
+(https://www.figma.com/design/e6sNMI641lsrmQk2HGuGjj/Agency-Landing-Page--Community-?node-id=3-2&t=9vMyOtjBoyXEuABR-0)
+
+### 🌐 Link Live Demo 
+
+(https://youtu.be/FlOkATIQ4lA)
+
 
 -----
 
