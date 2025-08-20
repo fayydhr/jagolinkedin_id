@@ -1,0 +1,589 @@
+/* Reset Dasar & Gaya Umum */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FFFFFF;
+  font-family: 'Hind Vadodara', sans-serif;
+  color: #331B3B;
+  position: relative;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* NAVBAR Kiri Atas */
+.site-nav {
+  position: absolute;
+  top: 47px;
+  left: 50px;
+  display: flex;
+  gap: 30px;
+  font-family: 'Hind Vadodara', sans-serif;
+  font-size: 16px;
+  z-index: 1000;
+}
+.site-nav .nav-link {
+  text-decoration: none;
+  color: rgba(51, 27, 59, 0.8);
+  font-weight: 400;
+  transition: color .25s ease;
+}
+.site-nav .nav-link:hover {
+  color: #FDC221;
+}
+.site-nav .nav-link.active {
+  font-weight: 700;
+  color: #331B3B;
+}
+
+/* Header & Judul Brand */
+.site-header {
+  position: absolute;
+  top: 43px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.brand-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+/* Dekorasi */
+.decor-group4, .decor-group6 {
+  position: absolute;
+  z-index: 0;
+  max-width: 100%;
+  height: auto;
+}
+.decor-group4 {
+  top: 0;
+  right: 0;
+}
+.decor-group6 {
+  top: 712px;
+  left: 50px;
+}
+
+/* Hero Section */
+.hero {
+  max-width: 1400px;
+  min-height: 3200px;
+  margin: 0 auto;
+  padding-top: 233px;
+  padding-left: 50px;
+  position: relative;
+  z-index: 1;
+}
+.hero-title {
+  font-size: 80px;
+  line-height: 1.2;
+  margin-bottom: 27px;
+}
+.hero-title .bold { font-weight: 700; }
+.hero-title .light { font-weight: 300; }
+.hero-title .highlight {
+  background: linear-gradient(transparent 60%, #FDC221 60%);
+  display: inline-block;
+}
+.hero-subtitle {
+  font-weight: 400;
+  font-size: 20px;
+  color: rgba(51, 27, 59, 0.66);
+  max-width: 800px;
+  margin-bottom: 31px;
+}
+.cta-button {
+  display: inline-block;
+  width: 270px;
+  height: 66px;
+  line-height: 66px;
+  background-color: #331B3B;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+.cta-button:hover {
+  background-color: #4a2a53;
+  transform: translateY(-3px);
+}
+
+/* About Section */
+.about {
+  position: absolute;
+  top: 1059.65px;
+  left: 950px;
+  width: 517px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 2;
+}
+.about-title {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.about-subwords {
+  display: flex;
+  gap: 20px;
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 1;
+  margin-bottom: 15px;
+}
+.about-subwords .highlighted {
+  background: linear-gradient(transparent 60%, #FDC221 60%);
+  display: inline-block;
+}
+.about-text {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(51, 27, 59, 0.9);
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+.about-text p {
+  margin-bottom: 8px;
+}
+.explore-btn {
+  width: 270px;
+  height: 66px;
+  line-height: 66px;
+}
+
+/* Key Benefits Section */
+.key-benefits {
+  position: absolute;
+  top: 1686.65px;
+  right: 0;
+  width: 1226px;
+  height: 674px;
+  z-index: 1;
+  background-image: url("data:image/svg+xml,%3Csvg width='1226' height='674' viewBox='0 0 1226 674' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1244 0.650757H400C179.086 0.650757 0 179.737 0 400.651V673.651H1244V0.650757Z' fill='%23FFDED4' fill-opacity='0.3'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.benefits-header {
+  position: absolute;
+  top: 42px;
+  left: 50px;
+  width: 517px;
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+.benefits-title {
+  font-size: 48px;
+  font-weight: 700;
+  font-family: 'Hind Vadodara', sans-serif;
+  color: #331B3B;
+  margin-bottom: 0;
+}
+.benefits-subwords {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 48px;
+  font-weight: 300;
+  font-family: 'Hind Vadodara', sans-serif;
+  color: #331B3B;
+  line-height: 1;
+  margin-top: 0;
+}
+.benefits-subwords .highlighted {
+  background: linear-gradient(transparent 60%, #FDC221 60%);
+  display: inline-block;
+}
+.benefits-desc {
+  position: absolute;
+  top: 53px;
+  left: 661px;
+  width: 517px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: 'Hind Vadodara', sans-serif;
+  color: rgba(51, 27, 59, 0.9);
+}
+.benefits-slider-container {
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+}
+.benefits-slider {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  flex: 1;
+}
+.benefit-card {
+  flex: 0 0 auto;
+  width: 419px;
+  height: 368px;
+  margin-right: 20px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Hind Vadodara', sans-serif;
+}
+.benefit-card img {
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.benefit-card h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.slider-btn {
+  background: #331B3B;
+  color: #fff;
+  border: none;
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 3;
+}
+.slider-btn:hover {
+  background: #4a2a53;
+}
+
+/* Testimonials Section */
+.testimonials {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 1000px;
+  padding: 0 20px;
+  font-family: 'Hind Vadodara', sans-serif;
+  top: 2375px;
+  width: 100%;
+}
+.testimonials-header {
+  text-align: center;
+  line-height: 1;
+  margin-bottom: 50px;
+}
+.testimonials-title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #331B3B;
+  margin-bottom: 10px;
+}
+.testimonials-subwords {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 48px;
+  font-weight: 300;
+  color: #331B3B;
+  line-height: 1;
+}
+.testimonials-subwords .highlighted {
+  background: linear-gradient(transparent 60%, #FDC221 60%);
+  display: inline-block;
+}
+.testimonials-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 30px;
+}
+.testimonial-card {
+  width: 300px;
+  height: 310px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.ikon-ganda {
+  background-image: url("data:image/svg+xml,%3Csvg width='64' height='65' viewBox='0 0 64 65' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M44.4128 52.2413L54.4 31.1693V13.0605H33.9856V32.2669H41.7776L33.9856 52.2413H44.4128ZM37.0336 29.2189V16.1101H51.3504V30.4829L42.4816 49.1917H38.4464L46.2352 29.2205H37.0336V29.2189Z' fill='%23FDC221'/%3E%3Cpath d='M20.0272 52.2413L30.0144 31.1693V13.0605H9.60001V32.2669H17.3936L9.60001 52.2413H20.0272ZM12.648 29.2189V16.1101H26.9648V30.4829L18.0976 49.1917H14.0624L21.8512 29.2205H12.648V29.2189Z' fill='%23FDC221'/%3E%3C/svg%3E");
+  width: 64px;
+  height: 65px;
+  background-repeat: no-repeat;
+  position: static;
+  margin-bottom: 20px;
+}
+.testimonial-text {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(51, 27, 59, 0.9);
+  line-height: 1.5;
+}
+.client-info {
+  margin-top: 20px;
+}
+.client-name {
+  font-size: 18px;
+  font-weight: 700;
+  color: #331B3B;
+  margin-bottom: 5px;
+}
+.client-role {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(51, 27, 59, 0.7);
+}
+.testimonial-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
+
+/* FAQ Section */
+.faq {
+  position: absolute;
+  top: 2900px;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 800px;
+  padding: 0 20px;
+  font-family: 'Hind Vadodara', sans-serif;
+  width: 100%;
+}
+.faq-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.faq-item {
+  margin-bottom: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.faq-question {
+  width: 100%;
+  padding: 15px;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  background: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.faq-question:hover {
+  color: #FDC221;
+}
+.faq-toggle-icon {
+  font-size: 24px;
+  font-weight: 300;
+  transition: transform 0.3s ease;
+}
+.faq-question.active .faq-toggle-icon {
+  transform: rotate(45deg);
+}
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease, padding 0.4s ease;
+  font-size: 16px;
+  color: rgba(51, 27, 59, 0.9);
+  padding: 0 15px;
+}
+.faq-answer p {
+  padding-bottom: 15px;
+}
+
+/* Final CTA */
+.final-cta {
+  position: absolute;
+  top: 3220px;
+  left: 0;
+  right: 0;
+  padding: 80px 20px;
+  text-align: center;
+  margin-top: 100px;
+  background: linear-gradient(to bottom, transparent, rgba(255, 222, 212, 0.7) 30%, rgba(255, 222, 212, 1) 100%);
+}
+.final-cta h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.register-btn {
+  background-color: #FDC221;
+  color: #331B3B;
+}
+.register-btn:hover {
+  background-color: #e0ae1b;
+}
+
+/* Scroll Animation */
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+.fade-in.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ========================================= */
+/* Media Query untuk Tampilan Mobile */
+/* ========================================= */
+@media (max-width: 768px) {
+  body {
+      position: static;
+      overflow-x: hidden;
+  }
+
+  /* Menghapus gambar dekorasi */
+  .decor-group4, .decor-group6 {
+      display: none;
+  }
+
+  /* Mengubah posisi elemen ke static untuk flow alami */
+  .site-nav, .site-header, .hero, .about, .key-benefits, .testimonials, .faq, .final-cta {
+      position: static;
+      transform: none;
+      width: 100%;
+      padding: 50px 20px;
+      margin-top: 50px; 
+  }
+  
+  .site-nav {
+      flex-direction: row; 
+      justify-content: center;
+      gap: 15px;
+      font-size: 14px;
+      padding: 20px 0;
+      margin-top: 0;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+  }
+  
+  .site-nav .nav-link {
+      flex-shrink: 0;
+  }
+
+  .site-header {
+      text-align: center;
+      padding-top: 20px;
+  }
+
+  /* Menyesuaikan Hero Section */
+  .hero {
+      padding-top: 50px;
+      text-align: center;
+      min-height: auto;
+  }
+  .hero-title {
+      font-size: 48px;
+  }
+  .hero-subtitle {
+      font-size: 16px;
+      text-align: center;
+  }
+  .cta-button {
+      margin: 0 auto;
+  }
+
+  /* Menyesuaikan About Section */
+  .about-title, .about-subwords {
+      text-align: center;
+      font-size: 32px;
+      justify-content: center;
+  }
+  .about-subwords {
+      font-size: 24px;
+  }
+  .about-text {
+      text-align: justify;
+  }
+  .explore-btn {
+      margin: 0 auto;
+  }
+
+  /* Menyesuaikan Key Benefits Section */
+  .key-benefits {
+      height: auto;
+      background-image: none;
+      padding: 50px 20px;
+  }
+  .benefits-header, .benefits-desc {
+      position: static;
+      width: 100%;
+      text-align: center;
+  }
+  .benefits-subwords {
+      justify-content: center;
+  }
+  .benefits-slider-container {
+      position: static;
+      transform: none;
+      width: 100%;
+      padding: 20px 0;
+  }
+  .benefits-slider {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+  }
+  .benefit-card {
+      width: 280px;
+      margin-right: 15px;
+  }
+  .slider-btn {
+      display: none; 
+  }
+
+  /* Menyesuaikan Testimonial Section */
+  .testimonials {
+      padding: 50px 20px;
+      margin-top: 100px;
+  }
+  .testimonials-grid {
+      flex-direction: column;
+      gap: 20px;
+  }
+  .testimonial-card {
+      width: 100%;
+  }
+
+  /* Menyesuaikan FAQ Section */
+  .faq {
+      padding: 50px 20px;
+      margin-top: 50px;
+  }
+
+  /* Menyesuaikan Final CTA Section */
+  .final-cta {
+      padding: 80px 20px;
+      margin-top: 50px;
+  }
+}
